@@ -1,0 +1,38 @@
+.div_piso h1{
+    font-family:"bavaria extended"!important;
+	font-size: 8px!important;    
+    font-style: normal!important;
+	font-weight: normal!important;
+	padding:8px 30px 5px;
+	color:#FFFFFF; 
+	text-shadow:1px 1px #000000;
+    margin: 0!important;
+    text-align: center;
+}
+.div_piso {
+	background: #1B5586;
+    border-top:3px solid #ff7f0c;
+    margin: 0;
+    padding: 0;
+}
+.div_tope {
+	background: #1B5586;
+    border-bottom:3px solid #ff7f0c;
+    margin: 0;
+    padding: 0;
+}
+#login-page{
+	 position:fixed; /*Se establece una posición fija para el DIV*/
+	 top:2px; /*Establezco una distancia de 2px desde la parte superior del navegador, al inicio del DIV en la parte superior */
+	 left:2px; /*Establezco una distancia de 2px desde la parte izquierda del navegador al inicio del div en la parte izquierda */
+	 right:2px; /*Establezco una distancia de 2px desde la parte derecha del navegador 	al final del div en la parte derecha */
+	 bottom:2px; /*Establezco una distancia de 2px desde la parte de abajo del navegador al final del div en la parte de abajo */
+	 border:solid 1px #B79F58; /* Establezco el estilo border para visualizar la posición del DIV, lo quitaré posteriormente */
+	 background-color: #E0D6B8;
+	 background-image: url('img/fondo-pantalla01.jpg'); /*Indico que el DIV tendrá de fondo una imagen, específicamente la imagen fondo-pantalla.png que se encuentra en la carpeta img */
+	 background-size:cover; /*Indico que el tamaño de imagen de fondo cubrirá toda la ventana del navegador */
+	 background-repeat:no-repeat; /*Indico que no se repetirá la imagen de fonto del div.*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
